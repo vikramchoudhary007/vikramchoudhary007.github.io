@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vikram Choudhary | BCA Student & Developer</title>
+  <style>
+    /* Global Reset & Styling */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+      padding: 0 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Header / Hero Section */
+    header {
+      padding: 4rem 0 2rem;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      color: #38bdf8;
+      margin-bottom: 0.5rem;
+    }
+
+    header h2 {
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: #94a3b8;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Quick Links / Buttons */
+    .btn-container {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.2s ease;
+    }
+
+    .btn-primary {
+      background-color: #38bdf8;
+      color: #0f172a;
+    }
+
+    .btn-primary:hover {
+      background-color: #7dd3fc;
+    }
+
+    .btn-secondary {
+      background-color: #1e293b;
+      color: #f8fafc;
+      border: 1px solid #334155;
+    }
+
+    .btn-secondary:hover {
+      background-color: #334155;
+    }
+
+    /* Sections */
+    section {
+      padding: 3rem 0;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    section h3 {
+      font-size: 1.5rem;
+      color: #38bdf8;
+      margin-bottom: 1rem;
+    }
+
+    /* Skills Grid */
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .skill-card {
+      background-color: #1e293b;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      color: #cbd5e1;
+      border: 1px solid #334155;
+    }
+
+    /* Projects Grid */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .project-card {
+      background-color: #1e293b;
+      padding: 1.5rem;
+      border-radius: 10px;
+      border: 1px solid #334155;
+    }
+
+    .project-card h4 {
+      font-size: 1.15rem;
+      color: #f8fafc;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-card p {
+      font-size: 0.9rem;
+      color: #94a3b8;
+      margin-bottom: 1rem;
+    }
+
+    /* Footer */
+    footer {
+      padding: 2rem 0;
+      text-align: center;
+      color: #64748b;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Vikram Choudhary</h1>
+    <h2>BCA Student | Aspiring Software Developer</h2>
+    <div class="btn-container">
+      <a href="mailto:vikram.k.c.0909@gmail.com" class="btn btn-primary">Contact Email</a>
+      <a href="https://github.com/vikramchoudhary007" target="_blank" class="btn btn-secondary">GitHub Profile</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h3>About Me</h3>
+    <p>
+      I am currently pursuing my Bachelor of Computer Applications (BCA). Passionate about core software development, modern web technologies, and problem-solving, I aim to build efficient and scalable digital solutions.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h3>Technical Skills</h3>
+    <div class="skills-grid">
+      <div class="skill-card">C / C++</div>
+      <div class="skill-card">Java / Python</div>
+      <div class="skill-card">HTML5 & CSS3</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">SQL / Database Management</div>
+      <div class="skill-card">Git & GitHub</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h3>Featured Projects</h3>
+    <div class="projects-grid">
+      
+      <div class="project-card">
+        <h4>Project Title 1</h4>
+        <p>A brief description of your project, key problems solved, and technologies used.</p>
+        <a href="https://github.com/vikramchoudhary007" target="_blank" class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.4rem 0.8rem;">View Code</a>
+      </div>
+
+      <div class="project-card">
+        <h4>Project Title 2</h4>
+        <p>A brief description of your project, key problems solved, and technologies used.</p>
+        <a href="https://github.com/vikramchoudhary007" target="_blank" class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.4rem 0.8rem;">View Code</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Vikram Choudhary. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
