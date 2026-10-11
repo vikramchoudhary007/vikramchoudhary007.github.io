@@ -285,9 +285,7 @@
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
-        <a href="#practice">Academic Practice</a>
         <a href="#connect">Connect</a>
       </div>
       <button class="theme-toggle-btn" id="themeToggleBtn">
@@ -301,7 +299,7 @@
       <div class="location-info">📍 Swaroopganj, Sirohi, Rajasthan | 📞 +91 9900137408</div>
       <div class="badges">
         <span class="badge">BCA Student (Sem 1)</span>
-        <span class="badge">Data Security Enthusiast</span>
+        <span class="badge">Aspiring Developer</span>
         <span class="badge">Commerce to Tech Fusion</span>
       </div>
     </header>
@@ -310,13 +308,13 @@
     <section id="about">
       <h2>About Me</h2>
       <div class="quote-box">
-        "Combining strong analytical principles with fundamental computer science and data security logic."
+        "Combining strong analytical principles with fundamental computer science logic."
       </div>
       <p style="color: var(--text-sub);">
         Motivated and detail-oriented <strong>Bachelor of Computer Applications (BCA)</strong> student at <strong>Adarsh College of Professional Studies, Aburoad</strong>.
       </p>
       <p style="color: var(--text-sub); margin-top: 8px;">
-        Having achieved <strong>90.83% in 12th Grade (Commerce)</strong> at <strong>KLEs Jagadguru Gangadhar College of Commerce, Hubli</strong>, I bring a strong background in analytical thinking into software logic, computer fundamentals, database management, and data security concepts.
+        Having achieved <strong>90.83% in 12th Grade (Commerce)</strong> at <strong>KLEs Jagadguru Gangadhar College of Commerce, Hubli</strong>, I bring a strong background in analytical thinking into software logic, computer fundamentals, and database management.
       </p>
     </section>
 
@@ -359,24 +357,6 @@
       </div>
     </section>
 
-    <!-- INTERNSHIP EXPERIENCE -->
-    <section id="experience">
-      <h2>Internship Experience</h2>
-      <div class="card">
-        <div class="card-header">
-          <div>
-            <div class="card-title">Data Security Intern (Upcoming / Applied)</div>
-            <div class="card-subtitle">Oasis Infobite | Virtual Internship</div>
-          </div>
-          <span class="badge">Applied</span>
-        </div>
-        <ul>
-          <li>Applied for a virtual internship focusing on Data Security and cybersecurity principles.</li>
-          <li>Preparing to execute fundamental data security tasks, vulnerability assessments, and security protocol studies.</li>
-        </ul>
-      </div>
-    </section>
-
     <!-- TECH STACK & SKILLS -->
     <section id="skills">
       <h2>Tech Stack & Skills</h2>
@@ -393,22 +373,6 @@
           <div class="skill-title">Programming & Databases (Currently Learning)</div>
           <div class="skill-list">C Programming (Basics), MySQL / SQL Basics, Computer Fundamentals</div>
         </div>
-        <div class="skill-card">
-          <div class="skill-title">Security Concepts</div>
-          <div class="skill-list">Data Security Fundamentals, Data Protection, Vulnerability Awareness</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ACADEMIC PRACTICE -->
-    <section id="practice">
-      <h2>Academic & Security Practice</h2>
-      <div class="card">
-        <div class="card-title">Data Security & Computer Fundamentals Practice</div>
-        <ul>
-          <li>Studying core concepts of data security, data protection techniques, and basic cryptography through academic coursework.</li>
-          <li>Practicing vulnerability awareness and system security best practices using computer fundamentals and OS utilities.</li>
-        </ul>
       </div>
     </section>
 
@@ -440,7 +404,7 @@
     const currentTheme = localStorage.getItem('theme') || 'dark';
     if (currentTheme === 'light') {
       document.documentElement.setAttribute('data-theme', 'light');
-      themeIcon.textContent = '☀️️';
+      themeIcon.textContent = '☀️';
       themeText.textContent = 'Light';
     }
 
